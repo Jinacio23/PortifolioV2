@@ -1,37 +1,10 @@
-/*barra de menu*/
-nav{
-    position: sticky;
-    top: 0;
-    background-image: linear-gradient(
-        to bottom,
-        #212036,
-        #2d2c55,
-        #2f2c79,
-        rgba(48, 44, 155, 0.5),
-        rgba(40, 35, 188, 0));
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    padding: 20px 80px;
-}
-.menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    font-size: 30px;
-}
-.menu li a{
-    font-weight: 600;
-}
-.menu li:nth-child(3) a{
-    font-size: 45px;
-    font-weight: 500;
+/* background */
+.fundo{
+    height: 100%;
 }
 
 /* header */
 header{
-    /* border: 2px solid red; */
     position: absolute;
     top: 0;
     height: 100vh;
