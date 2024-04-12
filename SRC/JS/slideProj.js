@@ -1,5 +1,5 @@
 const animDelay = document.querySelectorAll(".projeto")
-let count = 1;
+let count = 0;
 
 animDelay.forEach( proj => {
     count += 0.8

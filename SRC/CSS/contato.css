@@ -1,0 +1,26 @@
+main{
+    height: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.whats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.whats img{
+    width: 50px;
+    height: auto;
+    border-radius: 15px;
+}
