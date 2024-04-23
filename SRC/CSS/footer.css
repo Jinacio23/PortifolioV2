@@ -13,6 +13,11 @@ footer{
     gap: 30px;
     padding: 20px;
 }
+
+footer p{
+    font-size: clamp(1.9rem, 1.47vw + 1rem, 2rem);
+}
+
 footer a{
     display: flex;
     align-items: center;
@@ -28,4 +33,8 @@ footer a .gbg{
 footer a img{
     width: 30px;
     height: auto;
+}
+
+footer a span{
+    font-size: clamp(1rem, 1.18vw + 1rem, 1.6rem);
 }

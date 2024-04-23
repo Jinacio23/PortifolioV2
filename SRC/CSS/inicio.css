@@ -23,11 +23,14 @@ h1,h2,p{
 }
 h1{
     width: 410px;
-    font-size: 60px;
+    font-size: clamp(4.5rem, 4vw + 1rem, 6rem);
     margin-bottom: 50px;
 }
+.texto h2{
+    font-size: clamp(3rem, 2vw + 1rem, 2.8rem);
+}
 p{
-    font-size: 20px;
+    font-size: clamp(1.9rem, 1.47vw + 1rem, 2rem);
 }
 
 .perfil{
@@ -48,10 +51,11 @@ p{
 }
 .sobre h2{
     margin-bottom: 75px;
-    font-size: 30px;
+    font-size: clamp(3rem, 2vw + 1rem, 2.8rem);
 }
 .sobre p{
-    font-size: 25px;
+    font-size: clamp(2rem, 1.47vw + 1rem, 2.5rem);
+    line-height: 35px;
 }
 
 /* Competências */
@@ -62,8 +66,7 @@ p{
 
 .comp h2{
     margin-bottom: 75px;
-    font-size: 30px;
-    text-decoration: underline;
+    font-size: clamp(3rem, 2vw + 1rem, 3rem);
 }
 
 .skills{
@@ -84,11 +87,12 @@ p{
     font-weight: 500;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: clamp(2.6rem, 2.05vw + 1rem, 2.8rem);
 }
 
 .skills div ul li{
     text-align: start;
     list-style: inside;
-    font-size: 23px;
+    font-size: clamp(2rem, 1.69vw + 1rem, 2.3rem);
+    letter-spacing: 1px;
 }

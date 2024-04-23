@@ -1,0 +1,44 @@
+@media (max-width: 1920px) {}
+
+@media (max-width: 1200px) {
+    .descricao{
+        width: 24em;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .fundo .img2 {
+        left: calc(100vw - 83%); 
+    }
+
+    .descricao{
+        width: 25em;
+        font-size: 1.4rem;
+    }
+    .links-e-techs{
+        align-items: start;
+        flex-direction: column;
+        gap: 4px;
+        margin-bottom: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fundo .img2 {
+        left: calc(100vw - 77%); 
+    }
+    /* mudar anim projetos */
+}
+
+@media (max-width: 480px) {
+    .fundo .img2 {
+        left: calc(100vw - 72%); 
+    }
+}
+
+@media (max-width: 380px) {
+    .fundo .img2 {
+        left: calc(100vw - 90%); 
+    }
+}
