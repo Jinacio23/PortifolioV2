@@ -11,24 +11,43 @@ nav{
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 20px 80px;
-    
+    padding: 20px 5%;
+    width: 100%;
+    height: min(12vh, 76px);
 }
 .menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 1em;
     font-size: 30px;
 }
 .menu li a{
     font-weight: 600;
-    font-size: clamp(1.4rem, 2.2vw + 1rem, 3rem);
+    font-size: clamp(2.8rem, 1.4vw + 1rem, 3rem);
+    position: relative;
 }
-.menu li:nth-child(3) a{
-    font-size: 45px;
-    font-weight: 500;
+
+
+.menu li a::before{
+    content: "";
+    height: 4px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 50%;
+    transition: .5s;
 }
+
+ .menu li a:hover::before{
+    content: "";
+    width: 100%;
+    left: 0;
+} 
+
+
 
 /* header / Barra de navegação*/
 .side{

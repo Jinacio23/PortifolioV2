@@ -18,8 +18,10 @@
     <link rel="stylesheet" href="../CSS/menu.css">
     <link rel="stylesheet" href="../CSS/projeto.css">
     <link rel="stylesheet" href="../CSS/responsivo.css">
+    <link rel="stylesheet" href="../CSS/btnMenuBar.css">
 
     <script src="../JS/slideProj.js" defer></script>
+    <script src="../JS/menuMobile.js" defer></script>
 </head>
 
 <body>
@@ -30,9 +32,11 @@
     </div>
     <header class="side">
         <nav>
+            <input class="checkbox" type="checkbox" id="btn">
+            <label class="btnButton" for="btn" onclick="showMenu()"></label>
             <ul class="menu">
                 <li><a href="../../index.html">Inicio</a></li>
-                <li><a href="./contatos.html">+</a></li>
+                <li><a href="./contatos.html">Contatos</a></li>
             </ul>
         </nav>
     </header>

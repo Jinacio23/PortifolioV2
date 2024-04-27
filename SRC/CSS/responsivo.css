@@ -13,7 +13,7 @@
     }
 
     .descricao{
-        width: 25em;
+        width: 22.5em;
         font-size: 1.4rem;
     }
     .links-e-techs{
@@ -35,10 +35,69 @@
     .fundo .img2 {
         left: calc(100vw - 72%); 
     }
+
+    .btnButton{
+        display: block !important;
+    }   
+    .menu{
+        background-color: #040833;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 35vh;
+        width: 0vw;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        gap: .3em;
+        padding-bottom: 0.6em;
+        z-index: -2;
+        overflow: hidden;
+        animation: .4s ease-in forwards;
+    }
+    .menu li a{
+       padding-right: 0.8em
+    }
+
+
 }
 
 @media (max-width: 380px) {
     .fundo .img2 {
         left: calc(100vw - 90%); 
+    }
+}
+
+/* Keyframes */
+
+@keyframes showMenu{
+    0%{
+        width: 0vw;
+        height: 20vh;
+        opacity: .5;
+        border-bottom-left-radius: 100%;
+        
+    }
+    100%{
+        width: 100vw;
+        height: 35vh;
+        opacity: 1;
+        border-bottom-left-radius: 0%;
+        
+    }
+}
+
+@keyframes hiddenMenu{
+    0%{
+        width: 100vw;
+        opacity: 1;
+        border-bottom-left-radius: 0%;
+        height: 35vh;
+    }
+    100%{
+        width: 0vw;
+        opacity: 0;
+        border-bottom-left-radius: 100%;
+        height: 20vh;
     }
 }

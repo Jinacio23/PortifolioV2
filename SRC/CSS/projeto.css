@@ -11,7 +11,7 @@ h1{
 }
 
 .projeto{
-    max-width: 35em;/* De 30% p/ 70% */
+    max-width: 35em;
     height: 250px;
     border: 5px solid white;
     border-radius: 22px;
@@ -21,6 +21,7 @@ h1{
     animation-delay: unset;
     animation-fill-mode: forwards;
     margin: 50px auto;
+    z-index: -1;
 }
 
 .informacoes{

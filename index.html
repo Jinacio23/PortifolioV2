@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="SRC/CSS/inicio.css">
     <link rel="stylesheet" href="SRC/CSS/footer.css">
     <link rel="stylesheet" href="SRC/CSS/responsivo.css">
+    <link rel="stylesheet" href="SRC/CSS/btnMenuBar.css">
+
+    <script src="./SRC/JS/menuMobile.js" defer></script>
 </head>
 
 <body>
@@ -27,10 +30,12 @@
     </div>
     <header>
         <nav>
+            <input class="checkbox" type="checkbox" id="btn">
+            <label class="btnButton" for="btn" onclick="showMenu()"></label>
             <ul class="menu">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="SRC/PAGES/projs.html">Projetos</a></li>
-                <li><a href="SRC/PAGES/contatos.html">+</a></li>
+                <li><a href="SRC/PAGES/contatos.html">Contatos</a></li>
             </ul>
         </nav>
         <div class="intro">
