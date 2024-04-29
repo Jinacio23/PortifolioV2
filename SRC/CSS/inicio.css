@@ -23,18 +23,18 @@ h1,h2,p{
 }
 h1{
     width: 410px;
-    font-size: clamp(4.5rem, 4vw + 1rem, 6rem);
+    font-size: clamp(2.6rem, 4vw + 1rem, 6rem);
     margin-bottom: 50px;
 }
 .texto h2{
-    font-size: clamp(3rem, 2vw + 1rem, 2.8rem);
+    font-size: clamp(2.05rem, 2vw + 1rem, 2.8rem);
 }
 p{
-    font-size: clamp(1.9rem, 1.47vw + 1rem, 2rem);
+    font-size: clamp(0.5rem, 1.47vw + 1rem, 2rem);
 }
 
 .perfil{
-    height: 500px;
+    height: min(80vw, 500px);
     aspect-ratio: 1;
 }
 .perfil img{
@@ -47,14 +47,14 @@ p{
     height: 80vh;
     width: 100%;
     text-align: center;
-    padding: 70px 150px 80px;
+    padding: 70px clamp(5vw, 10.981vw, 11vw) 80px;
 }
 .sobre h2{
     margin-bottom: 75px;
-    font-size: clamp(3rem, 2vw + 1rem, 2.8rem);
+    font-size: clamp(2rem, 2vw + 1rem, 2.8rem);
 }
 .sobre p{
-    font-size: clamp(2rem, 1.47vw + 1rem, 2.5rem);
+    font-size: clamp(0.5rem, 1.47vw + 1rem, 2.5rem);
     line-height: 35px;
 }
 
@@ -66,7 +66,7 @@ p{
 
 .comp h2{
     margin-bottom: 75px;
-    font-size: clamp(3rem, 2vw + 1rem, 3rem);
+    font-size: clamp(2rem, 2vw + 1rem, 3rem);
 }
 
 .skills{
@@ -87,12 +87,12 @@ p{
     font-weight: 500;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    font-size: clamp(2.6rem, 2.05vw + 1rem, 2.8rem);
+    font-size: clamp(1.8rem, 2.05vw + 1rem, 2.8rem);
 }
 
 .skills div ul li{
     text-align: start;
     list-style: inside;
-    font-size: clamp(2rem, 1.69vw + 1rem, 2.3rem);
+    font-size: clamp(1rem, 1.69vw + 1rem, 2.3rem);
     letter-spacing: 1px;
 }

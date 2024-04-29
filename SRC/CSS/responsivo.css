@@ -1,12 +1,17 @@
-@media (max-width: 1920px) {}
+@media (max-width: 1920px) {
+    /*inicio*/
+
+}
 
 @media (max-width: 1200px) {
+    /*inicio*/
     .descricao{
         width: 24em;
     }
 }
 
 @media (max-width: 1024px) {
+    /*inicio*/
 
     .fundo .img2 {
         left: calc(100vw - 83%); 
@@ -25,15 +30,59 @@
 }
 
 @media (max-width: 768px) {
+    /*inicio*/
     .fundo .img2 {
-        left: calc(100vw - 77%); 
+        left: calc(100vw - 94vw); /*97%*/
+    }
+
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .intro .texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    h1{
+        margin-bottom: 40px;
+    }
+    h1,h2,p{
+        text-align: center;
+    }
+
+    .initMain{
+        margin-top: 30vw;
+    }
+    .comp{
+        margin-top: 40vw;
+    }
+
+    footer{
+        margin-top: 35vw;
     }
     /* mudar anim projetos */
 }
 
+@media (max-width: 650px) {
+    /*inicio*/
+    .skills{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .skills > div{
+        width: 80%;
+    }
+    .skills > div h3{
+        text-align: start;
+    }
+}
+
 @media (max-width: 480px) {
+    /*inicio*/
     .fundo .img2 {
-        left: calc(100vw - 72%); 
+        left: calc(100vw - 121vw); /*127%*/
     }
 
     .btnButton{
@@ -59,12 +108,31 @@
        padding-right: 0.8em
     }
 
+    h1{
+        max-width: 80%;
+    }
+    .intro .texto{
+        max-width: 80%;
+    }
+    
+    .sobre p{
+        line-height: 25px;
+    }
 
 }
 
 @media (max-width: 380px) {
+    /*inicio*/
     .fundo .img2 {
-        left: calc(100vw - 90%); 
+        left: calc(100vw - 142vw); /*148%*/
+    }
+
+    .sobre p{
+        line-height: 23px;
+    }
+
+    .comp{
+        margin-top: 65vw;
     }
 }
 
