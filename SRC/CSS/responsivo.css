@@ -13,10 +13,6 @@
 @media (max-width: 1024px) {
     /*inicio*/
 
-    .fundo .img2 {
-        left: calc(100vw - 83%); 
-    }
-
     .descricao{
         width: 22.5em;
         font-size: 1.4rem;
@@ -31,9 +27,7 @@
 
 @media (max-width: 768px) {
     /*inicio*/
-    .fundo .img2 {
-        left: calc(100vw - 94vw); /*97%*/
-    }
+    
 
     .intro{
         flex-direction: column-reverse;
@@ -81,9 +75,7 @@
 
 @media (max-width: 480px) {
     /*inicio*/
-    .fundo .img2 {
-        left: calc(100vw - 121vw); /*127%*/
-    }
+    
 
     .btnButton{
         display: block !important;
@@ -123,9 +115,7 @@
 
 @media (max-width: 380px) {
     /*inicio*/
-    .fundo .img2 {
-        left: calc(100vw - 142vw); /*148%*/
-    }
+    
 
     .sobre p{
         line-height: 23px;

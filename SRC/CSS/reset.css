@@ -42,10 +42,11 @@ body{
     width: auto;/*90% */
     height: 90%; /*auto */
     min-height: 375px;
-    top: 6%;
-    /* left: 10%; */
-    /* top: 5vh; */
-    left: calc(100vw - 77%); 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;    
     mask-image: url(../IMG/bgIcon.png);
     mask-repeat: no-repeat;
     mask-size: contain;
